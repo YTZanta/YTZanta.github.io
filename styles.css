@@ -1,0 +1,91 @@
+/* styles.css */
+/*body*/
+body {
+  background-image: url('https://asset.gecdesigns.com/img/wallpapers/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.webp'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+
+  height: 100vh;
+}
+/*header*/
+h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 70px;
+    color: wheat;
+}
+h3 {
+  font-family: cursive;
+  text-decoration: underline;
+  text-decoration-color: wheat;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 530;
+}
+/*info boxes*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 80px;
+}
+/*box shape, size and colors*/
+.box {
+    border-radius: 25px;
+    border: 8px solid wheat;
+    height: 295px;
+    width: 100px;
+    padding: 50px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+}
+.info {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 190px;
+  text-align: left;
+}
+.info-h {
+  text-align: center;
+}
+/*makes links aqua and hover color*/
+.links {
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 530;
+}
+.links:hover {
+  color: darkblue;
+}
+.steam-link {
+  line-height: 50px;
+}
+/*button*/
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid wheat;
+  background-color: transparent;
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}      
+button:hover {
+  background-color: black;
+  color: aqua;
+  border-color: aqua;
+  cursor: pointer;
+}
