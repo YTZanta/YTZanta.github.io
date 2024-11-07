@@ -21,6 +21,9 @@ h3 {
   text-decoration: underline;
   text-decoration-color: wheat;
 }
+.one-line {
+  line-height: 2.4;
+}
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 530;
@@ -54,7 +57,7 @@ p {
 .info-h {
   text-align: center;
 }
-/*makes links aqua and hover color*/
+/*makes links white and hover color blue*/
 .links {
   color: white;
   text-decoration-line: underline;

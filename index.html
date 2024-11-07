@@ -3,44 +3,50 @@
 <!DOCTYPE html>
     <html>
         <head>
-
+            <!--changes the name displayed on the browser TAB-->
             <title>Meet Fenix</title>
-
+            <!--links too css-->
             <link rel="stylesheet"
         href="styles.css">
 
         </head>
         <body>
             <div> 
+                <!--Header-->
                 <h1>About Me</h1>
             </div>
                 <!--<div class="center-button">
                 <button onclick="redirect()">Redirect</button>
-                </div>-->
+                </div>
                 <script>
                     function redirect() {
                         window.location.href = "https://www.example.com"
                     }
-                </script>
+                </script>-->
+                <!--makes a container to store all the info to make css easier-->
                 <div class="container">
+                    <!--each box class has box variable shared so they are the same and
+                    they have their own uniqe variable to make induvidual changes-->
                     <div class="box games-box">
-                        <h3>Top Games</h3>
+                        <!--displayed info in the box-->
+                        <h3 class="one-line">Top Games</h3>
                         <p>Rust</p>
                         <p>Liars Bar</p>
-                        <p>Deadlock</p>
-                        <p>Midnight murder club</p>
+                        <p>LockDown Protocol</p>
                     </div>
                         <div class="box social-box">
-                            <h3>Social</h3>
+                            <h3 class="one-line">Social</h3>
+                            <!--this makes a hyperlink which has a text with a redirect link on it-->
                             <a href="https://www.example.com" class="links youtube-link">YouTube</a>
                             <a href="https://steamcommunity.com/profiles/76561199214352049" class="links steam-link">Steam</a>
                         </div>
                         <div class="box info">
-                            <h3 class="info-h">Some info</h3>
+                            <h3 class="info-h one-line">Some info</h3>
                             <p>Hey! im Fenix, a gay furry femboy who love playing games and learning more about programming and IT. Ive had a rough past with some challenging experiences, but im hanging in there!! I hope you have a wonderful day!!</p>
                         </div>
                         <div class="box box4">
                             <h3>coming soon...</h3>
+                            <p>coming soon...</p>
                         </div>
                         <div class="box Relationship">
                             <h3>Relationship Status <3</h3>
