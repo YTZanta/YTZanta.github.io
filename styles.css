@@ -16,14 +16,15 @@
 }
 
 @media (max-width: 600px) {
-  .index-body, .index-header{
-    text-decoration: underline;
+  .index-body {
     background-image: none;
     background-color: #1e272e;
   }
+  
+  .index-header {
+    text-decoration: underline;
+  }
 }
-
-
 /*header*/
 .index-header {
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
