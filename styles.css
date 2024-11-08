@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .index-body {
@@ -27,7 +28,7 @@
 }
 /*header*/
 .index-header {
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-family: 'Comic Sans MS', 'Comic Sans', monospace;
     text-align: center;
     margin-top: 100px;
     font-size: 70px;
@@ -37,6 +38,7 @@
   margin-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: wheat;
+  font-family: serif, 'comic sans ms', monospace;
 }
 .one-line {
   line-height: 2.4;
