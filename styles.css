@@ -14,11 +14,24 @@
  
   height: 100vh;
 }
+@media (min-width: 600px) {
+  .phone-website {
+    display: none;
+  }
+}
+
 @media (max-width: 600px) {
-  .index-body {
+  .index-body, .phone-website, .scroll-down{
     background-image: none;
     background-color: lightgray;
   }
+}
+
+.scroll-down {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  color: red;
 }
 /*header*/
 .index-header {
