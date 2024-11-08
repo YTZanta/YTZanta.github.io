@@ -1,5 +1,10 @@
 /* styles.css */
 /*body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-image: url('https://asset.gecdesigns.com/img/wallpapers/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.webp'); 
   background-size: cover; 
@@ -16,7 +21,8 @@ h1 {
     font-size: 70px;
     color: wheat;
 }
-h3 {
+h2 {
+  margin-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: wheat;
 }
@@ -25,11 +31,18 @@ h3 {
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 530;
+  font-weight: 600;
+}
+.list {
+  line-height: 2.4;
+}
+.list-header {
+  margin-bottom: 10px;
 }
 /*info boxes*/
 .container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -40,17 +53,15 @@ p {
 .box {
     border-radius: 25px;
     border: 8px solid wheat;
-    height: 295px;
-    width: 100px;
-    padding: 50px;
-    padding-top: 5px;
+    height: 375px;
+    width: 225px;
+    padding-top: 10px;
     text-align: center;
     color: white;
 }
-.info {
+.info-box {
   padding-left: 10px;
   padding-right: 10px;
-  width: 180px;
   text-align: left;
 }
 .info-h {
@@ -62,13 +73,10 @@ p {
   text-decoration-line: underline;
   text-decoration-color: aqua;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 530;
+  font-weight: 550;
 }
 .links:hover {
   color: darkblue;
-}
-.steam-link {
-  line-height: 50px;
 }
 /*button*/
 .center-button {

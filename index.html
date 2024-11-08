@@ -1,59 +1,76 @@
 <!--index.html-->
 
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta charset="UTF-8">
-            <!--changes the name displayed on the browser TAB-->
-            <title>Meet Fenix</title>
-            <!--links too css-->
-            <link rel="stylesheet"
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Meet Fenix</title>
+        <link rel="stylesheet"
         href="styles.css">
+        <script src="myscripts.js"></script>
+    </head>
 
-        </head>
-        <body>
-            <div> 
-                <!--Header-->
-                <h1>About Me</h1>
-            </div>
-                <!--<div class="center-button">
-                <button onclick="redirect()">Redirect</button>
+
+    <body>
+        <header> 
+            <h1>About Me</h1>
+        </header>
+
+
+        <!-- Center Button -->
+        <!--<div class="center-button">
+            <button onclick="redirect()">Redirect</button>
+        </div>-->
+
+
+            <!-- Main Container -->
+            <main class="container">
+                <!-- Top Games Box -->
+                <div class="box">
+                    <h2 class="one-line list-header">Top Games</h2>
+                    <p class="list">Rust</p>
+                    <p class="list">Liars Bar</p>
+                    <p class="list">LockDown Protocol</p>
                 </div>
-                <script>
-                    function redirect() {
-                        window.location.href = "https://www.example.com"
-                    }
-                </script>-->
-                <!--makes a container to store all the info to make css easier-->
-                <div class="container">
-                    <!--each box class has box variable shared so they are the same and
-                    they have their own uniqe variable to make induvidual changes-->
-                    <div class="box games-box">
-                        <!--displayed info in the box-->
-                        <h3 class="one-line">Top Games</h3>
-                        <p>Rust</p>
-                        <p>Liars Bar</p>
-                        <p>LockDown Protocol</p>
-                    </div>
-                        <div class="box social-box">
-                            <h3 class="one-line">Social</h3>
-                            <!--this makes a hyperlink which has a text with a redirect link on it-->
-                            <a href="https://www.example.com" class="links youtube-link">YouTube</a>
-                            <a href="https://steamcommunity.com/profiles/76561199214352049" class="links steam-link">Steam</a>
-                        </div>
-                        <div class="box info">
-                            <h3 class="info-h one-line">Some info</h3>
-                            <p>Hey! im Fenix, a gay furry femboy who love playing games and learning more about programming and IT. Ive had a rough past with some challenging experiences, but im hanging in there!! I hope you have a wonderful day!!</p>
-                        </div>
-                        <div class="box box4">
-                            <h3>coming soon...</h3>
-                            <p>coming soon...</p>
-                        </div>
-                        <div class="box Relationship">
-                            <h3>Relationship Status <3</h3>
-                            <p>Taken by my femboy <3</p>
-                        </div>
+
+
+                <!-- Social Box -->
+                <div class="box">
+                    <h2 class="one-line list-header">Social</h2>
+                    <!--this makes a hyperlink which has a text with a redirect link on it-->
+                    <p><a href="https://www.example.com" class="links list">YouTube</a></p>
+                    <p><a href="https://steamcommunity.com/profiles/76561199214352049" class="links list">Steam</a></p>
                 </div>
-        </body>
-    </html>
+
+
+                <!-- Info Box -->
+                <div class="box info-box">
+                    <h2 class="info-h one-line">Some info</h2>
+                    <p>
+                        Hey! Im Fenix, a gay furry femboy who love playing games and learning more about programming and IT.<br>
+                        I've had a rough past with some challenging experiences, but I'm hanging in there!!<br>
+                        I hope you have a wonderful day!!
+                    </p>
+                </div>
+                    
+                    
+                <!-- Top Food Box -->
+                <div class="box">
+                    <h2 class="one-line list-header">Top Food</h2>
+                    <p class="list">Crispy duck</p>
+                    <p class="list">Sushi</p>
+                </div>        
+
+
+                <!-- Relationship Box -->
+                <div class="box relationship-box">
+                    <h2>
+                        Relationship<br>
+                        Status
+                    </h2>
+                    <p>Taken by my femboy <3</p>
+                </div>
+            </main>
+    </body>
+</html>
