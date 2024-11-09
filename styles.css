@@ -9,23 +9,17 @@
 
 .index-body {
   height: 100vh;
-  min-height: 100vh;
-  background-image: url('https://asset.gecdesigns.com/img/wallpapers/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.webp'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center;
+  background-color: #1e272e;
+  overflow-y: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .index-body {
-    background-image: none;
+    overflow: visible;
     background-color: #1e272e;
   }
-  
-  .index-header {
-    text-decoration: underline;
-  }
 }
+
 /*header*/
 .index-header {
     font-family: 'Comic Sans MS', 'Comic Sans', monospace;
@@ -62,7 +56,6 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   gap: 50px;
   margin-top: 80px;
 }
