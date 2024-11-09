@@ -8,14 +8,12 @@
 }
 
 .index-body {
-  height: 100vh;
+  height: calc(100vh -3px);
   background-color: #1e272e;
-  overflow-y: hidden;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .index-body {
-    overflow: visible;
     background-color: #1e272e;
   }
 }
