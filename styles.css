@@ -8,8 +8,8 @@
 }
 
 .index-body {
-  height: calc(100vh -3px);
-  background-color: #1e272e;
+  min-height: calc(100vh -3px);
+  background: #1e272e;
 }
 
 @media (max-width: 600px) {
