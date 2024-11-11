@@ -54,6 +54,10 @@ p {
   font-weight: 600;
 }
 
+.one-line {
+  line-height: 2.4;
+}
+
 .links {
   color: white;
   text-decoration-line: underline;
