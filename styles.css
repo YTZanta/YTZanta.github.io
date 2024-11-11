@@ -1,5 +1,5 @@
 /* styles.css */
-/*body*/
+/*global*/
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*bodies*/
 .index-body {
   min-height: calc(100vh -3px);
   background: #1e272e;
@@ -18,7 +19,7 @@
   }
 }
 
-/*header*/
+/*headers*/
 .index-header {
     font-family: 'Comic Sans MS', 'Comic Sans', monospace;
     text-align: center;
@@ -26,29 +27,46 @@
     font-size: 70px;
     color: wheat;
 }
+
 .box-header {
   margin-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: wheat;
   font-family: serif, 'comic sans ms', monospace;
-}
-.one-line {
   line-height: 2.4;
 }
+
+.list-header {
+  margin-bottom: 10px;
+}
+
+.info-header {
+  text-align: center;
+}
+
+.double-line-height {
+  margin: 9.6px 0 9.6px 0 ;
+}
+
+/*text misc*/
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
-.double-line-height {
-  margin: 9.6px 0 9.6px 0 ;
+
+.links {
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
 }
-.list {
-  line-height: 2.4;
+
+.links:hover {
+  color: darkblue;
 }
-.list-header {
-  margin-bottom: 10px;
-}
-/*info boxes*/
+
+/*boxes container*/
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -57,6 +75,7 @@ p {
   gap: 50px;
   margin-top: 80px;
 }
+
 /*box shape, size and colors*/
 .box {
     border-radius: 25px;
@@ -67,47 +86,12 @@ p {
     text-align: center;
     color: white;
 }
+
 .info-box {
   padding-left: 10px;
   padding-right: 10px;
   text-align: left;
 }
-.info-header {
-  text-align: center;
-}
-/*makes links white and hover color blue*/
-.links {
-  color: white;
-  text-decoration-line: underline;
-  text-decoration-color: aqua;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 550;
-}
-.links:hover {
-  color: darkblue;
-}
-/*button*/
-.center-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-button {
-  border-radius: 5px;
-  border: 1px solid wheat;
-  background-color: transparent;
-  color: wheat;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}      
-button:hover {
-  background-color: black;
-  color: aqua;
-  border-color: aqua;
-  cursor: pointer;
-}
-
 
 /*WIP subpage*/
 .wip-body {
