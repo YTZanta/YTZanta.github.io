@@ -97,7 +97,9 @@ p {
   text-align: left;
 }
 
-/*WIP subpage*/
-.wip-body {
-  text-decoration: underline;
+/*copyright footer*/
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
 }
