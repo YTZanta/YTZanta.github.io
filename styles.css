@@ -1,5 +1,4 @@
-/* styles.css */
-/*global*/
+/*global body html*/
 * {
   margin: 0;
   padding: 0;
@@ -8,21 +7,22 @@
 }
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*used for arranging flex elements vertically (top to bottom) in a flex container*/
   background-color: #080A0D;
 }
 
+
+
 /*headers*/
 h1 {
-  padding-top: 100px;
+  padding-top: 100px; /*use padding to make the header background become bigger*/
   padding-bottom: 40px;
   text-align: center;
   font-size: 80px;
   color: #279AF1;
-  background-color: #101419;
+  background-color: #101419; /*use background color to make a
+  gradient from the header to the background instead of manually making gradient*/
   line-height: 0.7;
 }
 
@@ -41,17 +41,24 @@ h1 {
   text-align: center;
 }
 
-.double-line-height {
-  margin: 9.6px 0 9.6px 0;
-}
+
 
 /*text misc*/
 p {
   color: white;
+  line-height: 2.4; 
 }
 
-.one-line {
-  line-height: 2.4;
+.double-line-height {
+  margin: 9.6px 0 9.6px 0; /*margin instead of lineheight so 
+  lockdown-protocol will be close on togheter, but add some space from other text elements in box*/
+
+  /*9.6px is used because 16px (text size)*1.2 (line-height) is 19.2 so its 9.6px on top and bottom 
+  so adding 9.6px to bottom and top doubles the line-height with margin */
+}
+
+.multiple-lines /*makes text with multiple lines get closer*/{
+  line-height: normal;
 }
 
 .links {
@@ -60,17 +67,17 @@ p {
   text-decoration-color: white;
 }
 
-/*boxes container*/
+
+
+/*container and boxes*/
 .container {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap; /*moves flex elements down the VP when it goes outside of VP*/
+  justify-content: center; /*aligns flex items in this case the boxes in the container*/
   gap: 50px;
   margin-top: 40px;
 }
 
-/*box shape, size and colors*/
 .box {
   border-radius: 25px;
   border: 8px solid #279AF1;
@@ -85,6 +92,8 @@ p {
   padding-right: 20px;
   text-align: left;
 }
+
+
 
 /*copyright footer*/
 footer {
