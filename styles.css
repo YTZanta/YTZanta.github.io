@@ -7,8 +7,11 @@
 }
 html, body {
   height: 100%;
+}
+
+body {
   display: flex;
-  flex-direction: column; /*used for arranging flex elements vertically (top to bottom) in a flex container*/
+  flex-direction: column;
   background-color: #080A0D;
 }
 
@@ -72,8 +75,8 @@ p {
 /*container and boxes*/
 .container {
   display: flex;
-  flex-wrap: wrap; /*moves flex elements down the VP when it goes outside of VP*/
-  justify-content: center; /*aligns flex items in this case the boxes in the container*/
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 50px;
   margin-top: 40px;
 }
